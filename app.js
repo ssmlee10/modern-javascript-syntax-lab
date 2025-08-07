@@ -186,6 +186,8 @@ console.log(lang);
 
 // Simulated user theme preference (change this variable to test)
 const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
+const theme = savedUserTheme || 'light';
+console.log(theme);
 
 // ! Exercise 11:
 // a. Use optional chaining in a console.log so that a console log of
